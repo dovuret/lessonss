@@ -1,0 +1,88 @@
+/* Підключення фрифтів */
+
+/* Google Fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Carme&display=swap"); */
+/* Google Fonts (Plugin) */
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+/* CSS-властивості шрифтів  */
+body {
+	
+	font-size: 17px;
+	color: #2c2c2c;
+}
+
+.about { 
+	font-family: "Rochester", sans-serif;
+	text-align: center;
+}
+.title {
+	word-spacing: 1px;
+	text-decoration: line-through;
+	text-decoration-color: pink;
+
+	text-transform: uppercase;
+	font-size: 60px;
+	letter-spacing: 20px;
+	text-shadow: 2px 2px 5px #2bff00, 5px -2px 1px rgb(6, 2, 255);
+}
+.about   {
+	text-align: center;
+	font-size: 30px;
+	
+	color: gray;
+}
+.about-text {
+line-height: 1.6;
+letter-spacing: 5px;
+}
+.more-block {
+	font-family: "dahot", sans-serif;
+}
+.more-title {
+	white-space: nowrap;
+text-align: center;
+text-transform: capitalize;
+text-decoration: overline;
+font-size: 50px;
+letter-spacing: 10px;
+text-shadow: 9px 1px 9px #cf3535, 5px 4px 0px rgb(6, 2, 255);
+
+}
+.more-text {
+	color: rgb(114, 114, 180);
+	line-height: 100px;
+	text-align: end;
+	font-size: 30px;
+
+}
+ul > li {
+	font-size: 20px;
+	text-align: start;
+	letter-spacing: 10px;
+	line-height: 30px;
+	
+}
+
+.homework {
+	text-align: center;
+	line-height: 1.5;
+	font-family: "Poppins";
+}
+.homework-title {
+	color: #1A1A1A;
+	font-size: 20px;
+	
+}
+.homework-text {
+color: #808080;
+font-size: 18px;
+line-height: 100px;
+}
